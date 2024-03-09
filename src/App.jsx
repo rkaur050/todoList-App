@@ -1,3 +1,4 @@
+import React from 'react';
 import { useState, useEffect } from 'react'
 import Navbar from './components/Navbar'
 import { v4 as uuidv4 } from 'uuid';
