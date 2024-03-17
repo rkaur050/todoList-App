@@ -9,7 +9,7 @@ import { MdDelete } from "react-icons/md";
 function App() {
 
   const [todo,setTodo]=useState('');
-  const [todos,setTodos]=useState(JSON.parse(localStorage.getItem('todos')));
+  const [todos,setTodos]=useState(JSON.parse(localStorage.getItem('todos')) || []);
   const [showFinished,setShowFinished]=useState(true);
 
   useEffect(()=>{
